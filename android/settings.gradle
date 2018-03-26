@@ -1,0 +1,6 @@
+rootProject.name = 'wdi'
+
+include ':fancy-native-module'
+project(':fancy-native-module').projectDir = new File(rootProject.projectDir, '../fancy-native-module/android')
+
+include ':app'
