@@ -23,7 +23,9 @@ RCT_EXPORT_MODULE(FancyViewManagerManager)
 
 - (UIView *)view
 {
-    return [[UIView alloc] init];
+    UIView *view = [[UIView alloc] init];
+    [view setBackgroundColor:[UIColor redColor]];
+    return view;
 }
 
 @end
